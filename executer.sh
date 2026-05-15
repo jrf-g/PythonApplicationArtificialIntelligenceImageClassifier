@@ -1,0 +1,2 @@
+python optimizedcputrainer.py
+python classifyandpredict.py

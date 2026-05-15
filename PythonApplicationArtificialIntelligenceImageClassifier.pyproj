@@ -12,6 +12,7 @@
     <OutputPath>.</OutputPath>
     <Name>PythonApplicationArtificialIntelligenceImageClassifier</Name>
     <RootNamespace>PythonApplicationArtificialIntelligenceImageClassifier</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -29,8 +30,12 @@
     <Compile Include="optimizedcputrainer.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".editorconfig" />
+    <Content Include="classify.png" />
     <Content Include="readme.md" />
     <Content Include="requirements.txt" />
+    <Content Include="executer.sh" />
+    <Content Include="samples\.editorconfig" />
     <Content Include="samples\classnames.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
