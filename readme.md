@@ -30,9 +30,12 @@ Follow these steps to install the project:
 2. put training images into `samples`
 3. put image to classify into `classify.png`
 ## Execution
-Follow these steps to execute the project:
-1. run `optimizedcputrainer.py` to train the model and save the trained model as `image_classifier_mobilenetv2_cpu.pth`
-2. run `classifyandpredict.py`
-Or just run `executer.sh` to execute both steps in one go.
+Run `executer.sh`
 ## Verification
 Results will be printed in the console, showing the predicted class along with the confidence score and confusion matrix for the input image.
+### For More Information
+For more details on the implementation and technical aspects of the project, please refer to the code comments
+For any questions or issues, please feel free to open an issue in the GitHub repository.
+For contributions, please submit a pull request with your proposed changes.
+For general info, refer to the Introduction section above.
+about.xml May be relevant for more info about the project, but it is not necessary for understanding the code or running the project.

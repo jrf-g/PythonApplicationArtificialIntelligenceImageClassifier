@@ -1,0 +1,12 @@
+{
+	"name": "pythonapplicationartificialintelligenceimageclassifier",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "node -r coffeescript/register src/index.coffee"
+	},
+	"homepage": "https://github.com/jrf-g/PythonApplicationArtificialIntelligenceImageClassifier",
+	"license": "SEE LICENSE IN license.txt",
+	"main": "congrats",
+	"engines": { "node": ">4" },
+	"os": [ "darwin", "linux" ]
+}

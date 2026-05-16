@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Execution>
+		<Program name="PythonApplicationArtificialIntelligenceImageClassifier" entry="executer.sh" />
+	</Execution>
+	<Help>
+		<Readme file="readme.md" section="For More Information" />
+	</Help>
+</Project>
