@@ -23,6 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="javascript\" />
     <Folder Include="samples\" />
   </ItemGroup>
   <ItemGroup>
@@ -31,7 +32,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".editorconfig" />
+    <Content Include="about.xml" />
     <Content Include="classify.png" />
+    <Content Include="congrats.coffee" />
+    <Content Include="license.txt" />
+    <Content Include="package.json" />
     <Content Include="readme.md" />
     <Content Include="requirements.txt" />
     <Content Include="executer.sh" />

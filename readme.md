@@ -33,6 +33,9 @@ Follow these steps to install the project:
 Run `executer.sh`
 ## Verification
 Results will be printed in the console, showing the predicted class along with the confidence score and confusion matrix for the input image.
+
+---
+
 ### For More Information
 For more details on the implementation and technical aspects of the project, please refer to the code comments
 For any questions or issues, please feel free to open an issue in the GitHub repository.
