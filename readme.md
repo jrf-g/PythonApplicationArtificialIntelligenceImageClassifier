@@ -11,7 +11,6 @@ It is CPU optimized, making it suitable for training and inference on machines w
 ![Platform](https://img.shields.io/badge/Platform-CPU--Only-lightgrey)
 ![Model](https://img.shields.io/badge/Model-MobileNetV2-green)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![License](https://img.shields.io/badge/License-UNLICENSED-red)
 
 ---
 
@@ -42,3 +41,6 @@ For any questions or issues, please feel free to open an issue in the GitHub rep
 For contributions, please submit a pull request with your proposed changes.
 For general info, refer to the Introduction section above.
 about.xml May be relevant for more info about the project, but it is not necessary for understanding the code or running the project.
+
+### License
+see LICENSE file for details.
