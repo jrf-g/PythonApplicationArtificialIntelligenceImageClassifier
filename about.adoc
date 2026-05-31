@@ -1,0 +1,65 @@
+= About
+jrf g
+:revnumber: 1
+:revdate: {localmonth} {localday}, {localyear}
+:revremark: First Edition
+:description: A nice alternative for people who hate READMEs
+:experimental:
+:!toc:
+
+NOTE: This guide is for KDE linux (ideally on a ROG Maximus motherboard), however other OSes are supported
+
+== Download
+. go to GitHub
+. find the Repo
+. download with menu:Code[ZIP]
+. unzip with menu:Folder[Unzip] in Dolphin at menu:KDE[Dolphin]
+
+[sidebar]
+****
+Try Now!
+****
+
+==  Installation after Download
+. Install the requirements
+. Install CoffeeScript
+. Install NodeJS 4.1 or preferably newer
+WARNING: Attempting to install the CUDA edition of PyTorch or having it already installed has a small chance of damaging the processor.
+This damage will especially occur if you edit the device variable in the code.
+Dont install it and if already installed, uninstall it.
+
+CAUTION: Make sure not to install NodeJS 4.0 or older
+it may result in missing built-in dependencies
+
+== Setup
+. Insert classify.png
+. Insert training data in  directory
+
+== Execution
+Run executer.sh with menu:File[Open > Open in Terminal]
+or, in the terminal, run the following
+
+[source,bash]
+----
+python optimizedcputrainer.py
+python classifyandpredict.py
+----
+
+TIP: Always run executer.sh from the project directory
+but the script gives to 10 seconds to cancel if not running from the directory so you can always cancel with kbd:[Ctrl+C] until athe countdown finishes
+
+== Aftermath
+CAUTION: it is advised check the following before treating and/or claiming the output as "real information"
+
+* Confidence Score
+* Confusion Matrix
+
+NOTE: if the confidence is high, you are ready to treat it as real information
+with precaution as long as you tell anyone you share it with that it was a generated
+
+IMPORTANT: If you ignored the aforementioned warning
+there may be minor damage to the processor if there is
+press btn:[UEFI BIOS] at boot and go to menu:Exit[Reset] then press btn:[confirm]
+
+== License
+see license.txt
