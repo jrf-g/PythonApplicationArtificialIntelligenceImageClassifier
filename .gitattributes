@@ -62,3 +62,4 @@
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
 /javascript/* linguist-generated
+*.json linguist-language=JSON
