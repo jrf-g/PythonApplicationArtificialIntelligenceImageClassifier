@@ -9,7 +9,7 @@ It is CPU optimized, making it suitable for training and inference on machines w
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Platform](https://img.shields.io/badge/Platform-CPU--Only-lightgrey)
-![Model](https://img.shields.io/badge/Model-MobileNetV2-green)
+![Model](https://img.shields.io/badge/Model-MobileNetV2-yellow)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 ---
