@@ -21,9 +21,10 @@ Try Now!
 ****
 
 ==  Installation after Download
-. Install the requirements
-. Install CoffeeScript
-. Install NodeJS 4.1 or preferably newer
+* Install the requirements
+* Install CoffeeScript
+* Install NodeJS 4.1 or preferably newer
+
 WARNING: Attempting to install the CUDA edition of PyTorch or having it already installed has a small chance of damaging the processor.
 This damage will especially occur if you edit the device variable in the code.
 Dont install it and if already installed, uninstall it.
