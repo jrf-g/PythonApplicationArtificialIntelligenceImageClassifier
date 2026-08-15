@@ -1,5 +1,5 @@
 # AI Image Classifier
-This is a CPU optimized AI object detector and image classifer. for more info, read the Introduction section below, For technical details, please refer to the code comments in `optimizedcputrainer.py` and `classifyandpredict.py`.
+This is a CPU optimized AI object detector and image classifier. for more info, read the Introduction section below, For technical details, please refer to the code comments in `optimizedcputrainer.py` and `classifyandpredict.py`.
 ## Introduction
 This project is an AI image classifier that uses a convolutional neural network (CNN) to classify images into different categories.
 The project is implemented in Python using PyTorch.
